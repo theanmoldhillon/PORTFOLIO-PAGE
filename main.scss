@@ -1,0 +1,134 @@
+.header {
+display: flex;
+justify-content: space-between;
+height: 150px;
+padding: 8px;
+}
+
+.container {
+width: 100%;
+}
+
+.banner {
+width: 100%;
+}
+
+.wrapper {
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+img {
+width: 100%;
+}
+
+body {
+max-width: 980px;
+margin: auto;
+padding: 30px;
+}
+
+.card {
+width: 30%;
+}
+
+.picbox {
+overflow: hidden;
+}
+
+h1, h2, p, a {
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+display: block;
+}
+
+.workheading {
+font-size: 30px;
+padding: 8px;
+}
+
+.workname {
+font-size: 100%;
+}
+
+
+
+@media screen and (max-width: 660px) {
+.container {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+width: 100%;
+}
+
+.header {
+width: 100%;
+}
+
+.banner {
+width: 100%;
+}
+
+.wrapper {
+width: 100%;
+}
+
+.picbox {
+min-width: 140px;
+}
+
+.worklink {
+font-size: 10px;
+}
+}
+
+
+
+@media screen and (max-width: 900px) {
+.workname {
+width: 100%;
+}
+}
+
+
+
+@media screen and (max-width: 550px) {
+.wrapper {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+width: 100%;
+}
+
+.logo {
+width: 0;
+}
+
+.nameandposition {
+width: 100%s
+}
+
+.card {
+width: 80%;
+padding: 1px;
+padding-bottom: 40px;
+}
+}
+
+
+$primary-color: #a12828;
+
+body {
+  background-color: green;
+}
+
+ul.list  {
+  background-color: $primary-color;
+
+  li {
+    background-color: green;
+    border-radius: 12px;
+  }
+}
